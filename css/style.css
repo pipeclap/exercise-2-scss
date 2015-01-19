@@ -1,0 +1,53 @@
+/* This file imports all of your scss partials
+to be compiled into only one sheet, which you can then attach to your html.
+
+All files are previxed with an underscore "_name-of-file.scss" are
+ called partials - meaning their css isn't compiled unless its imported into
+ an unprefixed.scss file */
+/* This file contains our variables */
+/* are placeholders for storing information
+that you want to reuse throughout your styles.
+
+You can */
+/* This is our main file for mixins */
+/* This is our main file for css/sass*/
+/* line 2, /Users/pipeclap/Desktop/Final Web Development/exercise-2-scss/scss/components/main */
+body {
+  background-color: white; }
+
+/* line 6, /Users/pipeclap/Desktop/Final Web Development/exercise-2-scss/scss/components/main */
+.primary-btn {
+  background-color: #3498db;
+  border-radius: 3px;
+  padding: 0.5em 1em;
+  margin: 1em;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff; }
+  /* line 11, /Users/pipeclap/Desktop/Final Web Development/exercise-2-scss/scss/mixins */
+  .primary-btn:hover {
+    background-color: #2980b9; }
+
+/* line 10, /Users/pipeclap/Desktop/Final Web Development/exercise-2-scss/scss/components/main */
+.secondary-btn {
+  background-color: #aaa;
+  border-radius: 3px;
+  padding: 0.5em 1em;
+  margin: 1em;
+  display: inline-block;
+  text-decoration: none;
+  color: #000; }
+  /* line 11, /Users/pipeclap/Desktop/Final Web Development/exercise-2-scss/scss/mixins */
+  .secondary-btn:hover {
+    background-color: #666; }
+
+/* line 14, /Users/pipeclap/Desktop/Final Web Development/exercise-2-scss/scss/components/main */
+.border, ul {
+  border: 1px solid #666; }
+  /* line 16, /Users/pipeclap/Desktop/Final Web Development/exercise-2-scss/scss/components/main */
+  .border p, ul p {
+    color: green; }
+
+/* line 21, /Users/pipeclap/Desktop/Final Web Development/exercise-2-scss/scss/components/main */
+ul {
+  color: red; }

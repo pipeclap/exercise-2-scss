@@ -1,0 +1,14 @@
+/* This file imports all of your scss partials
+to be compiled into only one sheet, which you can then attach to your html.
+
+All files are previxed with an underscore "_name-of-file.scss" are
+ called partials - meaning their css isn't compiled unless its imported into
+ an unprefixed.scss file */
+
+// IMPORT VARIABLES, MIXINS AND OTHER MODULES in this order
+@import "base";
+@import "mixins";
+
+
+// Component rules (no need to add _ on partials) (font icon could be here)
+@import "components/main";
